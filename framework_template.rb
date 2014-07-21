@@ -27,6 +27,6 @@ route "root to: 'site#index'"
 rake "db:create"
 rake "db:migrate"
 
-# git :init
-# git add: "."
-# git commit: %Q{ -m 'Initial commit' }
+git :init
+git add: "."
+git commit: %Q{ -m 'Initial commit' }
