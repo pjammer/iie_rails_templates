@@ -5,6 +5,7 @@ base_layout = ask("Which front end framework [f]oundation, [b]ootstrap or [r]esp
 if base_layout == "f"
   layout_gem_name = "foundation-rails"
   gem layout_gem_name
+  gem "sprockets-es6"
 elsif base_layout == "b"
   gem 'therubyracer'
   gem "less-rails"
