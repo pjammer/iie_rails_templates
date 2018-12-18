@@ -108,7 +108,7 @@ else
 end
 # May need to have Users with Accounts
 if acct = yes?("Create Accounts for Users?")
-  generate(:scaffold, "Account name:string user:references")
+  generate(:scaffold, "Account name:string user:references subdomain:string")
 end
 #if you have a cart you have a product to add; should add a "What do you call your product" save name to add as reference here.
 if yes?("Create a Cart?")
